@@ -5,7 +5,7 @@ import axios from 'axios';
 import { useNavigate, useParams } from 'react-router-dom';
 
 
-const DeleteBook = () => {
+const DeleteBook = () => { //this is delete function
   const [loading, setLoading] = useState(false);
   const navigate = useNavigate();
   const { id } = useParams();
