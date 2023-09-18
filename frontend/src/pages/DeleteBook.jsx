@@ -18,7 +18,7 @@ const DeleteBook = () => {
       .then(() => {
         setLoading(false);
         
-        navigate('/');
+        navigate('/'); //using for naviagate previous
       })
       .catch((error) => {
         setLoading(false);
